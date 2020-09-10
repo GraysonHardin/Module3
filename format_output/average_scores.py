@@ -13,3 +13,16 @@ def average():
     score3 = int(input("Enter third number here:"))
     average_scores = (score1 + score2 + score3) / 3
     return average_scores
+
+
+def main():
+    last_name = input("Enter last name:")
+    first_name = input("Enter first name:")
+    age = input("Enter age:")
+    average_score = average()
+    print(f'{last_name}, {first_name} age: {age} average grade: {average_score}')
+
+
+if __name__ == '__main__':
+    main()
+

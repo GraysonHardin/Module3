@@ -11,33 +11,33 @@ import unittest
 
 class OperatorTest(unittest.TestCase):
     def test_equal(self):
-        actual = 4
+        actual = 5
         expected = 5
         self.assertTrue(expected == actual)
 
     def test_not_equal(self):
         actual = 4
-        expected = 4
+        expected = 5
         self.assertTrue(expected != actual)
 
     def test_greater_than(self):
         actual = 4
-        expected = 3
+        expected = 5
         self.assertTrue(expected > actual)
 
     def test_less_than(self):
         actual = 6
-        expected = 7
+        expected = 5
         self.assertTrue(expected < actual)
 
     def test_greater_than_or_equal(self):
         actual = 4
-        expected = 3
+        expected = 5
         self.assertTrue(expected >= actual)
 
     def test_less_than_or_equal(self):
         actual = 6
-        expected = 7
+        expected = 5
         self.assertTrue(expected <= actual)
 
 

@@ -1,5 +1,4 @@
 import unittest
-import unittest.mock
 from unittest import mock
 from format_output.average_scores import average
 

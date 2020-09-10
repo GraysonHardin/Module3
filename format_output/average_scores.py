@@ -8,4 +8,8 @@
 
 
 def average():
-    pass
+    score1 = int(input("Enter first number here:"))
+    score2 = int(input("Enter second number here:"))
+    score3 = int(input("Enter third number here:"))
+    average_scores = (score1 + score2 + score3) / 3
+    return average_scores

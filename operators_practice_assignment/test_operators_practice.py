@@ -1,13 +1,14 @@
 """
 Program: test_operators_practice
 Author: Grayson Hardin
-Last date modified:
+Last date modified: 9/10/2020
 
 
 This program utilizes various operators and includes testing to show whether they pass or fail.
 """
 
 import unittest
+
 
 class OperatorTest(unittest.TestCase):
     def test_equal(self):

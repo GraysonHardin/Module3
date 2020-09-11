@@ -1,7 +1,7 @@
 """
 Program: string_method.py
 Author: Grayson Hardin
-Last date modified:
+Last date modified: 9/10/2020
 
 
 This file provides a list of various methods and briefly explains their purpose.
